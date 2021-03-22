@@ -1,21 +1,21 @@
 # request-simple-ntlm
 
-__request-simple-ntlm__ is a Node.js library to do HTTP NTLM authentication using [request](https://github.com/request/request)
+__request-simple-ntlm-md4__ is a Node.js library to do HTTP NTLM authentication using [request](https://github.com/request/request) with added md4 support for later versions of Node
 
-It's a fork from [httpntlm](https://github.com/SamDecrock/node-http-ntlm) which is again a port from the Python libary [python-ntml](https://code.google.com/p/python-ntlm/)
+It's a fork from [request-simple-ntlm](https://github.com/msathis/request-simple-ntlm) which is a fork from [httpntlm](https://github.com/SamDecrock/node-http-ntlm) which is again a port from the Python libary [python-ntml](https://code.google.com/p/python-ntlm/)
 
 ## Install
 
-You can install __request-simple-ntlm__ using the Node Package Manager (npm):
+You can install __request-simple-ntlm-md4__ using the Node Package Manager (npm):
 
-    npm install request-simple-ntlm
+    npm install request-simple-ntlm-md4
 
 ## How to use
 
 An example can be found in __test__ directory.
 
 ```js
-var ntlm = require('request-simple-ntlm');
+var ntlm = require('request-simple-ntlm-md4');
 
 var options = {
     url: "https://someurl.com",
@@ -54,6 +54,7 @@ It supports both __http__ and __https__.
 
 
 ## More information
+* [request-simple-ntlm](https://github.com/msathis/request-simple-ntlm)
 * [httpntlm](https://github.com/SamDecrock/node-http-ntlm)
 * [python-ntlm](https://code.google.com/p/python-ntlm/)
 * [NTLM Authentication Scheme for HTTP](http://www.innovation.ch/personal/ronald/ntlm.html)
