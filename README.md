@@ -1,4 +1,4 @@
-# request-simple-ntlm
+# request-simple-ntlm-md4
 
 __request-simple-ntlm-md4__ is a Node.js library to do HTTP NTLM authentication using [request](https://github.com/request/request) with added md4 support for later versions of Node
 
