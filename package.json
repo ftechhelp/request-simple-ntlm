@@ -1,24 +1,24 @@
 {
-  "name": "request-simple-ntlm",
-  "description": "request-simple-ntlm is a Node.js library to do HTTP NTLM authentication using request module",
-  "version": "1.1.0",
+  "name": "request-simple-ntlm-md4",
+  "description": "request-simple-ntlm-md4 is a Node.js library to do HTTP NTLM authentication using request module that supports MD4 on newer versions of Node.",
+  "version": "1.0.0",
   "dependencies": {
     "js-md4": "^0.3.2",
     "request": "^2.88.0"
   },
   "author": {
-    "name": "Sathis",
-    "url": "https://github.com/msathis/"
+    "name": "Vincent Fontaine",
+    "url": "https://github.com/ftechhelp/"
   },
   "bugs": {
-    "url": "https://github.com/msathis/request-simple-ntlm/issues"
+    "url": "https://github.com/ftechhelp/request-simple-ntlm-md4/pulls"
   },
   "engines": {
     "node": ">=0.11.0"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/msathis/request-simple-ntlm.git"
+    "url": "git://github.com/ftechhelp/request-simple-ntlm-md4.git"
   },
   "main": "./index",
   "licenses": [
